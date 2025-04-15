@@ -1,0 +1,54 @@
+
+/* ====== Fond général ====== */
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* ====== Titres ====== */
+h1, h2, h3 {
+    color: #1a73e8;
+    font-weight: 600;
+}
+
+/* ====== Cartes de métriques ====== */
+[data-testid="metric-container"] {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* ====== Séparateurs ====== */
+hr {
+    border-top: 1px solid #ccc;
+    margin: 30px 0;
+}
+
+/* ====== Graphiques ====== */
+div.element-container svg {
+    border-radius: 8px;
+}
+
+/* ====== Widgets Streamlit (inputs, sliders, etc.) ====== */
+.stMultiSelect, .stSelectbox, .stSlider {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+}
+
+/* ====== Boutons ====== */
+button {
+    background-color: #1a73e8 !important;
+    color: #fff !important;
+    border-radius: 8px !important;
+}
+
+/* ====== Pied de page ====== */
+footer {
+    visibility: hidden;
+}
